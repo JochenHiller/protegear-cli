@@ -41,8 +41,8 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 ### Pull Requests
 
 1. Ensure any install or build dependencies are removed before the end of the layer when doing a build
-2. Update the README.md with details of changes to the interface, including new environment variables, exposed ports, useful file locations, and container parameters
-3. Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent
+2. Update the [README.md](./README.md) with details of changes to the interface, including new environment variables, exposed ports, useful file locations, and container parameters
+3. Increase the version numbers in any examples files and the [README.md](./README.md) to the new version that this Pull Request would represent
 4. Follow the Go coding conventions and style guide
 
 #### Code Style
@@ -54,6 +54,8 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 - Ensure all tests pass before submitting
 
 #### Commit Messages
+
+Follow [conventional commits](https://www.conventionalcommits.org) conventions for commit messages:
 
 - Use the present tense ("Add feature" not "Added feature")
 - Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
@@ -71,7 +73,7 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 - Update documentation for any new features
 - Ensure code comments are clear and helpful
-- Update README.md if necessary
+- Update [README.md](./README.md) if necessary
 
 ## Development Workflow
 
@@ -81,7 +83,7 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 4. Write or update tests
 5. Run tests and ensure they pass
 6. Run `go fmt` to format your code
-7. Commit your changes with a clear commit message
+7. Commit your changes following [conventional commits](https://www.conventionalcommits.org/) with a clear commit message
 8. Push to your fork
 9. Submit a pull request
 

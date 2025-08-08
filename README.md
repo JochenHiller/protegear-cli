@@ -11,7 +11,7 @@ The primary functions planned for this project are:
 * Create and delete trips for well-known travels
 * Export data (GPX files and more) for a given trip
 
-The CLI tool is designed to handle a single ALIVE tracker or a list of connected trackers to one account.
+The CLI tool is designed to handle a single ALIVE tracker or a list of trackers connected to one account.
 
 ## Installation
 
